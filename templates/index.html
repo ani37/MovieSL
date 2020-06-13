@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <br></br>
+    <h1><u>List of shooting locations of all Movies </u></h1>
+    <br></br>
+    {% for post in posts %}
+      {% if post.locations != null %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <h2 class="mr-2" href="#">Movie : {{ post.title }}
+              <small class="text-muted">({{ post.release_year }})</small></h2>
+            </div>
+            <p class="article-title" href="#">Director :<span class = "text-primary"> {{ post.director }}</span></p>
+            <p class="article-title" href="#">Writer : <span class = "text-primary">{{ post.writer }}</span></p>
+            <p class="article-content">Location : <span class = "text-primary">{{ post.locations }}</span></p>
+          </div>
+        </article>
+      {% endif %}  
+    {% endfor %}
+{% endblock content %}

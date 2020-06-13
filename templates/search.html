@@ -1,0 +1,20 @@
+
+{% extends "layout.html" %}
+{% block content %}
+ <body>
+  <br /><br />
+  <div class="container" style="width:900px;">
+   <h2 align="center">MOVIES LOCATION LIVE SEARCH (Ajax JQuery)</h2>
+   <br /><br/>
+   <div align="center">
+    <input type="text"
+     id="search"
+     class="form-control form-control-lg"
+     placeholder="Search Movies Details"/>
+   </div>
+   <div  id="match-list"></div>
+  </div>
+  <script src="{{url_for('static', filename='search.js')}}"></script>
+
+ {% endblock content %}
+
