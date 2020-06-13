@@ -102,7 +102,7 @@ py -m pip --version
 pip 9.0.1 from c:\python36\lib\site-packages (Python 3.6.1)
 py -m pip install --upgrade pip 
 
-Linux & Mac : <br>
+Linux & Mac : 
 python3 -m pip install --user --upgrade pip 
  ```
  ```
@@ -111,7 +111,7 @@ python3 -m pip install --user --upgrade pip
 Windows :
 py -m pip install --user virtualenv 
 
-Linux & Mac : <br>
+Linux & Mac :
 python3 -m pip install --user virtualenv 
 ```
  ```
@@ -121,7 +121,7 @@ Windows :
 py -m venv env 
 .\env\Scripts\activate
 
-Linux & Mac : <br>
+Linux & Mac :
 python3 -m venv env 
 source env/bin/activate
 ```
