@@ -4,9 +4,7 @@
 
 ```
 directory_tree :
-```
 
-```
 Task
 ├── task_main.py
 ├── README.md
@@ -93,7 +91,7 @@ Here, we loop over the file and we post the titles, locations, names of the dire
 
 # 3. Deploying to pythonanywhere
 PythonAnywhere is an online integrated development environment and web hosting service based on the Python programming language.
-The link to the website is [http://ani37.pythonanywhere.com/](ani37.pythonanywhere.com)
+The link to the website is [ani37.pythonanywhere.com](http://ani37.pythonanywhere.com/)
 
 ### 3.1. Flask
 For the backend of this project Flask was used. Flask is a micro web framework written in Python.
