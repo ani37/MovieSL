@@ -94,19 +94,55 @@ The project was deployed to Heroku, by integrating it with GitHub the link to th
 For the backend of this project Flask was used. Flask is a micro web framework written in Python.
 
 # 4. Instructions to execute:
+```
+1. Installing pip
 
-start virtual env -> pip install -r requirements.txt -> python task_main.py.
+Windows :
+py -m pip --version
+pip 9.0.1 from c:\python36\lib\site-packages (Python 3.6.1)
+py -m pip install --upgrade pip 
+
+Linux & Mac : <br>
+python3 -m pip install --user --upgrade pip 
+ ```
+ ```
+2. Installing virtualenv 
+
+Windows :
+py -m pip install --user virtualenv 
+
+Linux & Mac : <br>
+python3 -m pip install --user virtualenv 
+```
+ ```
+3. Installing virtualenv & activate
+
+Windows :
+py -m venv env 
+.\env\Scripts\activate
+
+Linux & Mac : <br>
+python3 -m venv env 
+source env/bin/activate
+```
+ ```
+4. Clone git repo
+git clone https://github.com/ani37/movie-shooting-location-finder.git
+cd movie-shooting-location-finder
+```
+ ```
+5. Install requirements.txt
+pip install -r requirements.txt
+```
+ ```
+6. Start web server
+python task_main.py
+```
 
 
-
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-
 
 
 Authored By: Aniket Agarwalla
