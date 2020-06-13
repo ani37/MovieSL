@@ -109,36 +109,29 @@ Linux & Mac :
 python3 -m pip install --user --upgrade pip 
  ```
  ```
-2. Installing virtualenv 
+2. Installing virtualenv & activate
 
 Windows :
 py -m pip install --user virtualenv 
-
-Linux & Mac :
-python3 -m pip install --user virtualenv 
-```
- ```
-3. Installing virtualenv & activate
-
-Windows :
 py -m venv env 
 .\env\Scripts\activate
 
 Linux & Mac :
+python3 -m pip install --user virtualenv 
 python3 -m venv env 
 source env/bin/activate
 ```
  ```
-4. Clone git repo
+3. Clone git repo
 git clone https://github.com/ani37/movie-shooting-location-finder.git
 cd movie-shooting-location-finder
 ```
  ```
-5. Install requirements.txt
+4. Install requirements.txt
 pip install -r requirements.txt
 ```
  ```
-6. Start web server
+5. Start web server
 python task_main.py
 ```
 
