@@ -6,26 +6,27 @@
 directory_tree :
 
 Task
-├── task_main.py
-├── README.md
-├── .vscode
+├── .vscode/
 │   └── settings.json
-├── requirements.txt
-├── static
-│   ├── main.css
-│   └── search.js
-├── templates
-│   ├── index.html
-│   ├── layout.html
-│   ├── login.html
-│   ├── register.html
-│   └── search.html
-├── forms.py
-├── data.json
-├── __pycache__
+├── __pycache__/
 │   ├── data.cpython-38.pyc
 │   └── forms.cpython-38.pyc
-└──  Pipfile
+├── data.json
+├── forms.py
+├── Pipfile
+├── Procfile
+├── readme.md
+├── requirements.txt
+├── static/
+│   ├── main.css
+│   └── search.js
+├── task_main.py
+└── templates/
+    ├── index.html
+    ├── layout.html
+    ├── login.html
+    ├── register.html
+    └── search.html
 
 ```
 
