@@ -32,7 +32,7 @@ Task
 ```
 
 #### Stack
-Python, Flask, jQuery, AJAX, JSON, Jinja, HTML, CSS, JavaScript, Bootstrap, SQLAlchemy 
+*Python, Flask, jQuery, AJAX, JSON, Jinja, HTML, CSS, JavaScript, Bootstrap, SQLAlchemy*
 
 
 #### Dependencies:
@@ -67,7 +67,7 @@ WTForms==2.3.1 <br>
 
 
 # 1. Dataset Description
-If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.
+If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, names of the director, writer, actors, and studio for most of these films.
 
 
 ### 1.1 Dataset
@@ -79,16 +79,20 @@ Dataset via SODA API : [https://data.sfgov.org/resource/yitu-d5am.json](https://
 write here
 
 ### 2.1. Dynamic Search Interface
-write here.
+In this project we build a simple Search bar that searches a for movies in JSON file with some prefix dynamically using the Fetch API, Async/Await, Regex and high order array methods. 
 
-### 2.2. Listing all movies
-write here
+*Note : Movies can only be retrieved if they are available in the dataset.*
+
+### 2.2. Listing all the movies
+Here, we loop over the file and we post the titles, locations, names of the director and writer for most of these films. Undefined locations are checked and are ignored from the list.
 
 ### 2.3. Login/ Signup
-write here
+ WTForms are used for Login/ Signup.It is a flexible forms validation and rendering library for Python web development. It can work with whatever web framework and template engine you choose. 
+ *Note : Database for login signup is ignored as currently there is no role of users.*
 
-# 3. Deploying to He roku
-The project was deployed to Heroku, by integrating it with GitHub the link to the website is [.](.)
+# 3. Deploying to pythonanywhere
+PythonAnywhere is an online integrated development environment and web hosting service based on the Python programming language.
+The link to the website is [ani37.pythonanywhere.com](ani37.pythonanywhere.com)
 
 ### 3.1. Flask
 For the backend of this project Flask was used. Flask is a micro web framework written in Python.
