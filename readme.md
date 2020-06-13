@@ -76,10 +76,10 @@ The initial dataset is taken from [https://data.sfgov.org/Culture-and-Recreation
 Dataset via SODA API : [https://data.sfgov.org/resource/yitu-d5am.json](https://data.sfgov.org/resource/yitu-d5am.json)
 
 # 2. Movie shooting location finder
-write here
-
+ Movie shooting location finder is a web application that displays a list of all movies shooted at a location along with some other details about a movie. It also provides a text search bar for dynamically searching users favourate movies by title.
+ 
 ### 2.1. Dynamic Search Interface
-In this project we build a simple Search bar that searches a for movies in JSON file with some prefix dynamically using the Fetch API, Async/Await, Regex and high order array methods. 
+In this project we build a simple Search bar that searches for movies in JSON file with some prefix dynamically using the Fetch API, Async/Await, Regex and high order array methods. 
 
 *Note : Movies can only be retrieved if they are available in the dataset.*
 
@@ -87,12 +87,13 @@ In this project we build a simple Search bar that searches a for movies in JSON 
 Here, we loop over the file and we post the titles, locations, names of the director and writer for most of these films. Undefined locations are checked and are ignored from the list.
 
 ### 2.3. Login/ Signup
- WTForms are used for Login/ Signup.It is a flexible forms validation and rendering library for Python web development. It can work with whatever web framework and template engine you choose. 
+ WTForms are used for Login/ Signup.It is a flexible forms validation and rendering library for Python web development. It can work with any web framework and template engine you choose. 
+ 
  *Note : Database for login signup is ignored as currently there is no role of users.*
 
 # 3. Deploying to pythonanywhere
 PythonAnywhere is an online integrated development environment and web hosting service based on the Python programming language.
-The link to the website is [ani37.pythonanywhere.com](ani37.pythonanywhere.com)
+The link to the website is [http://ani37.pythonanywhere.com/](ani37.pythonanywhere.com)
 
 ### 3.1. Flask
 For the backend of this project Flask was used. Flask is a micro web framework written in Python.
