@@ -1,4 +1,4 @@
-# Movie shooting location finder
+# Movie shooting location finder (MovieSL)
 #### The task is to build a web app that helps them find out shooting locations of their favorite movies.
 
 
